@@ -16,6 +16,7 @@
 
 ## Mode d'emploi:
 1. ### compilation
-*  #### g++ test.cpp -o test
+*  ### g++ test.cpp -o test
 2. ### exécution
-* #### ./test  file.fasta  k  size  nf  r (avec file.fasta le fichier fasta, k la taille des k_mer, size la taille du bloom filter, nf le nombre des fonction des hashage et puis r le nombre des random request)
+* ### ./test  file.fasta  k  size  nf  r 
+#### avec file.fasta le fichier fasta, k la taille des k_mer, size la taille du bloom filter, nf le nombre des fonction des hashage et puis r le nombre des random request
