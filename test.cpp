@@ -27,6 +27,18 @@ char nexDnaChar(string file)
              << filename << "'" << endl;
         return 'F';
     }
+    
+    // il faut qu'on soit sur que c'est un fichier de bonne format c à d il commence par '>'
+    if(!(input_file.get(byte)))
+    {
+      return 'F';
+    }  
+    if (byte!='>')
+    {
+        return 'F';
+    }
+    
+    
 
     string line;            // variable pour pouvoire toujour sauter la premier ligne en utilisant la fonction getline()
 
@@ -210,7 +222,7 @@ int main(int argc, char *argv[])
         kmer=kmer+nextchar;
 
         //vous pouvez decommenter la prochaine ligne pour voir a chaque etape le K-mer et son code 
-        // cout<< kmer<<":"<<code<<endl;
+         cout<< kmer<<":"<<code<<endl;
        
     }
      
@@ -228,6 +240,6 @@ int main(int argc, char *argv[])
         }
         else cout <<"is the "<<k<<"-mer "<<randomkmer<<" present ?"<< bloom1.is_present(encodeK(randomkmer))<< endl;     
     }
-    
+
     return 0;
 }
