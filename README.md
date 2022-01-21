@@ -14,8 +14,8 @@
 * la fonction encodeKPlus qui va coder le K-mer *à partire d'un K-mer précedent et une lecture du prochain char* en utilisant d'autre fonction comme encodeK, encodeKR,encode et encodeR
 * la fonction randKmer qui va generer des K-mer random et puis dans le main on test s'ils figure dans le fichier .fasta en entrée
 
-# Mode d'emploi:
-1. ## compilation
+## Mode d'emploi:
+1. ### compilation
 *  **g++ test.cpp -o test**
-2. ## execution
+2. ### execution
 * **./test file.fasta K SIZE NF R**
