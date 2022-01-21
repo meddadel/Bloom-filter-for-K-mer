@@ -222,7 +222,7 @@ int main(int argc, char *argv[])
         kmer=kmer+nextchar;
 
         //vous pouvez decommenter la prochaine ligne pour voir a chaque etape le K-mer et son code 
-         cout<< kmer<<":"<<code<<endl;
+        //cout<< kmer<<":"<<code<<endl;
        
     }
      
