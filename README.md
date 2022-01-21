@@ -9,7 +9,7 @@
  * la fonction hash qui utilise les propriétés du xor.
  * la fonction multihash qui va generer plusieur hashes pour le meme code en en repetant plusieur fois le xorshifts.
  
-3. ### le [main programme : test.cpp](https://github.com/meddadel/Bloom-filter-for-K-mer/blob/master/test.cpp): c'est le programe principal 
+3. ### le [main programme : test.cpp](https://github.com/meddadel/Bloom-filter-for-K-mer/blob/master/test.cpp): c'est le programe principal et il contien les fonction suivante ainci que le main
 * la fonction nexDnaChar qui lis le fichier en entrée
 * la fonction encodeKPlus qui va coder le K-mer *à partire d'un K-mer précedent et une lecture du prochain char* en utilisant d'autre fonction comme encodeK, encodeKR,encode et encodeR
 * la fonction randKmer qui va generer des K-mer random et puis dans le main on test s'ils figure dans le fichier .fasta en entrée
@@ -18,5 +18,5 @@
 1. ### compilation
 *  #### g++ test.cpp -o test
 2. ### execution
-* #### ./test file.fasta k size nf r
-* avec k la taille des k_mer, size la taille du bloom filter, nf le nombre des fonction des hashage et puis r le nombre des random request
+* #### ./test [file.fasta] [k] [size] [nf] [r]
+* avec file.fasta le fichier fasta, k la taille des k_mer, size la taille du bloom filter, nf le nombre des fonction des hashage et puis r le nombre des random request
