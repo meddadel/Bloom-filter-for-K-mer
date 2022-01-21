@@ -15,12 +15,12 @@
 * la fonction randKmer qui va generer des K-mer random et puis dans le main on test s'ils figure dans le fichier .fasta en entrée
 
 ## Mode d'emploi:
-1. ### compilation
+1. ### compilation:
 *  ### g++ test.cpp -o test
-2. ### exécution
+2. ### exécution:
 * ### ./test  file.fasta  k  size  nf  r
-* #### file.fasta le fichier fasta,
-* #### k la taille des k_mer, 
-* #### size la taille du bloom filter, 
-* #### nf le nombre des fonction des hashage 
-* #### r le nombre des random request
+*  file.fasta le fichier fasta,
+*  k la taille des k_mer, 
+*  size la taille du bloom filter, 
+*  nf le nombre des fonction des hashage 
+*  r le nombre des random request
