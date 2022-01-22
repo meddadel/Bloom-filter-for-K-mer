@@ -1,7 +1,7 @@
 # Bienvenue dans le Bloom-filter-for-K-mer
 
-## l'architecture de ce programme on peut la decomposer en 3 sous programme:
-1. ### le [Bloom-filter : bloomFilter.cpp](https://github.com/meddadel/Bloom-filter-for-K-mer/blob/master/bloomFilter.cpp), quelques fonction classiques sont présentes, à l'image de:
+## l'architecture de ce programme on peut la décomposer en 3 sous programme:
+1. ### le [Bloom-filter : bloomFilter.cpp](https://github.com/meddadel/Bloom-filter-for-K-mer/blob/master/bloomFilter.cpp), quelques fonctions classiques sont présentes, à l'image de:
 * add_value
 * is_presnte
 
