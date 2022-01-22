@@ -202,7 +202,7 @@ int main(int argc, char *argv[])
     if(code<code2)
     {
         bloom1.add_value(code);
-        cout<< kmer<<":"<<code<<endl;
+        //cout<< kmer<<":"<<code<<endl;
     }
     else 
     {
@@ -236,9 +236,9 @@ int main(int argc, char *argv[])
         string randomkmer= randKmer(k);
         if(encodeKR(randomkmer)<encodeK(randomkmer))
         {
-            cout <<"is the "<<k<<"-mer "<<randomkmer<<" present ?"<< bloom1.is_present(encodeKR(randomkmer))<< endl;
+            cout <<"is the "<<k<<"-mer "<<randomkmer<<" present ? "<< boolalpha<< bloom1.is_present(encodeKR(randomkmer))<< endl;
         }
-        else cout <<"is the "<<k<<"-mer "<<randomkmer<<" present ?"<< bloom1.is_present(encodeK(randomkmer))<< endl;     
+        else cout <<"is the "<<k<<"-mer "<<randomkmer<<" present ? "<< boolalpha<< bloom1.is_present(encodeK(randomkmer))<< endl;     
     }
 
     return 0;
